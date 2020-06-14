@@ -1,0 +1,29 @@
+doctype html
+html
+    head
+        meta(charset="UTF-8")
+        title SIGN UP
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="style/signup.css")
+    body
+        div.container
+            .box
+                h1 RENTAL
+                h2 Wellcome to Rental
+                form(action="")
+                    input(type="text" name="firstName" placeholder="First Name" required autofocus)
+                    <br>
+                    input(type="text" name="lastName" placeholder="Last Name")
+                    <br>
+                    input(type="email" name="email" placeholder="email" required)
+                    <br>
+                    input(type="password" name="password" placeholder="Password" required)
+                    <br>
+                    input(type="password" name="confirmPassword" placeholder="Confirm password" required)
+                    <br>
+                    button(type="submit") Create Account
+                    <br>
+                    p
+                        | Already have an account?
+                        a(href="#") Sign In
+                    

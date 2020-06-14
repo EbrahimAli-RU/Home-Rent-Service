@@ -1,0 +1,37 @@
+doctype html
+html
+    head
+        meta(charset="UTF-8")
+        title HOME PAGE
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="style/index.css")
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    body
+        div.container
+            div.nav
+                a.nav__left(href="#") RENTAL
+                a.nav__right(href="#") Post your rental
+                a.nav__right(href="#") SIGN UP
+                a.nav__right(href="#") LOG IN
+            div.search
+                div.search_menu
+                    form(action="")
+                        input.search_box(name="location" type="text" placeholder="Where do you want to live?" required)
+                        //- button.search_button(type="button") Search
+                        button.search_button(type='submit')
+                            a.SBA(href=`#`) Search
+        div.cities
+            div.left
+                div.popular__cities
+                    p Popular cities....
+            div.right
+                a.city(href="#") Rajshahi
+                a.city(href="#") Dhaka
+                a.city(href="#") Khulna
+                a.city(href="#") Shylet
+                a.city(href="#") Chittagong
+                a.city(href="#") Comilla
+        .footer
+            h2.foot(style="color: black;") Click on me
+        script(src="js/index.js")
+        script(src="js/main.js")            

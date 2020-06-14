@@ -1,0 +1,174 @@
+body,html {
+    margin: 0;
+    height: 100%;
+}
+.container {
+    height: inherit;
+    width: 100%;
+    /* opacity: .4; */
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url(../img/rentals/rental.jpg);
+}
+
+.nav a {
+    margin-top: 20px;
+    position: relative;
+    color: white;
+    margin:  1.5vw;
+    padding:2vh 3vw;
+    text-decoration: none;
+    font-size: 1.3vw;
+    border: 1px solid black;
+    border-radius: 3vw;
+    position: relative;
+}
+.nav__left {
+    float: left;
+    border: none;
+}
+.nav__right:hover {
+    color: black;
+    background-color: white;
+    border: none;
+}
+.nav__right {
+    float: right;
+}
+.search{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    width: 80%;
+    height: 10vh; 
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2), 0 3px 10px 0 rgba(0, 0, 0, .19);
+
+   /* background-color: saddlebrown; */
+ }
+
+.search_menu{
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 10vh;
+    background-color: white;
+}
+
+.search_box{
+   width: 90%;
+   border: none;
+   font-size: 2.7vh;
+   height: 9.7vh;
+}
+
+input.search_box:hover {
+    border: none;
+}
+
+.search_button{
+    position: absolute;
+    width: 10%;
+    right: 0%;
+    background-color: rgba(206, 160, 11, 0.562);
+    font-size: 2vw;
+    border: none;
+    height: 10vh;
+    cursor: pointer;
+}
+
+.SBA {
+    text-decoration: none;
+}
+/* .search__box input{
+    left: 15%;
+    font-size: 1.3vw;
+    height: 7vh;
+    width: 65%;
+    position: absolute;
+    top: 50%;
+    background-color: red;
+} */
+/* form {
+    display: inline-block;
+} */
+/* input {
+    font-size: 1.5vw;
+    height: 6.3vh;
+    padding: 0 100%;
+} */
+.cities {
+   
+    width: 100%;
+    height: 80vh;
+}
+
+.left {
+    /* position: relative; */
+    height: inherit;
+    display: flex;
+    float: left;
+    width: 40%;
+   
+}
+.popular__cities {
+    top: 40%;
+    margin: auto;
+    width: 12vw;
+    height: 18vh;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2), 0 3px 10px 0 rgba(0, 0, 0, .19);
+
+}
+/* .left h2 {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2), 0 3px 10px 0 rgba(0, 0, 0, .19);
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    padding: 10vh 2vw;
+    border: 2px solid black;
+} */
+
+.popular__cities p {
+    color: black;
+    margin-left: 2vw;
+    font-size: 2vw;
+}
+.right { 
+    position: relative;
+    float: left;
+    width: 60%;
+   
+    height: inherit;
+    background-image: url(../img/rentals/images\ \(9\).jpeg);
+    /* background-image: none; */
+    background-size: 100% 100%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2), 0 3px 10px 0 rgba(0, 0, 0, .19);
+
+}
+.right a {
+    /* position: absolute; */
+    color: white;
+    border: 2px solid white;
+    margin: 3vh 24vw;
+    display: block;
+    font-size: 1.3vw;
+    padding: 1vw;
+    text-align: center;
+    border-radius: 4vw;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.right a:hover {
+    background-color: white;
+    color: black;
+}
+/* .right p:hover {
+    background-color: white;
+    color: black;
+} */
+.footer {
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 40vh;
+}

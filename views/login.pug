@@ -1,0 +1,22 @@
+doctype html
+html
+    head
+        meta(charset="UTF-8")
+        title LOG IN
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="style/login.css")
+    body
+        div.container
+            div.box
+                h1 RENTAL
+                h2 Wellcome Back
+                form(action="")
+                    input(type="email" name="email" placeholder="Email" required)
+                    |
+                    input(type="password" name="password" placeholder="password" required)
+                    <br>
+                    input(type="checkbox" id="remember__me")
+                    label(for="remember__me") Remember me
+                    a(href="#") Forgot Password?
+                    <br>
+                    button(type="submit") Log In

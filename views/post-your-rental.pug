@@ -1,0 +1,16 @@
+doctype html
+html
+    head
+        meta(charset="UTF-8")
+        title Post your rental | #{name}
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="style/post-your-rental.css")
+    body
+        form(action="")
+            input(type="file" name="photo")
+            input(type="text" name="location" placeholder="Location ?" required)
+            input(type="Number" name="room" placeholder="Number of Room ?" required)
+            input(type="Number" name="bathroom" placeholder="Bathroom" required)
+            input(type="Number" name="parking" placeholder="Parking")
+            input(type="Number" name="price" placeholder="Rent per month" required)
+            button(type="submit" name="submit") Submit
